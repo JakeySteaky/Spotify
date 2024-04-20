@@ -33,6 +33,7 @@ h1 {
     background-color: black;
     border-radius: 10px;
     width: 33%;
+    min-width: 450px;
     margin: 25px auto;
     display: flex;
     flex-direction: column;
