@@ -10,16 +10,16 @@ body a {
 }
 
 header {
-    height: 30px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: left;
-    padding: 20px;
+    padding: 0;
     background-color: black;
 }
 
 header img {
-    height: 100%;
+    height: 50%;
     width: auto;
     padding: 15px; 
 }
