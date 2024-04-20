@@ -1,0 +1,143 @@
+body {
+    background: linear-gradient(to top, #000000, #141414);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 900px;
+    margin: 0px;
+}
+body a {
+    font-size: 12px;
+}
+
+header {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 20px;
+    background-color: black;
+}
+
+header img {
+    height: 100%;
+    width: auto;
+    padding: 15px; 
+}
+
+h1 {
+    margin: 0;
+}
+
+
+#box_01 {
+    background-color: black;
+    border-radius: 10px;
+    width: 33%;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginPrompt {
+    padding: 40px;
+}
+
+.pillButton {
+    background-color: black;
+    border: 1px solid grey;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    height: 40px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.pillButton a {
+    text-align: center;
+}
+.pillButton img {
+    height: 60%;
+    width: auto;
+    position: absolute;
+    left: 15px; 
+}
+.pillButton + .pillButton {
+    margin-top: 10px;
+}
+
+#loginButton {
+    margin: 20px;
+    background-color: #1DB954;
+    color: black;
+}
+
+.pillButton:hover {
+    background-color: rgb(22, 22, 22);
+    padding: 20px;
+}
+
+#loginButton:hover {
+    background-color: rgb(27, 159, 73);
+    padding: 20px;
+}
+
+
+label {
+    font-size: small;
+    padding: 5px 5px;
+}
+input {
+    height: 30px;
+    width: 50%;
+    background-color: rgb(23, 23, 23);
+    color: white;
+    border: 1px solid grey; 
+    border-radius: 5px;
+    padding-left: 10px;
+}
+input + label {
+    margin-top: 10px;
+}
+
+.divider{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.divider {
+    width: 75%;
+    height: .4px;
+    background-color: rgb(81, 81, 81);
+    margin: 20px auto;
+}
+
+#link {
+    text-decoration: underline;
+    color: white;
+}
+
+.greyText {
+    color: grey;
+}
+
+
+#switchBox {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: left;
+    width: 50%;
+    align-items: center;
+    margin-top: 20px;
+}
+.switch {
+    margin-right: 10px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in to Spotify</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/switches.css">
+</head>
+<body>
+
+    <header>
+        <img src="/ASSETS/spotifyIcon.png">
+        <h1>Spotify</h1>
+    </header>
+
+
+    <div id="box_01">
+        <h1 id="loginPrompt">Log in to Spotify</h1>
+
+        <button class="pillButton">
+            <img src="/ASSETS/googleIcon.png">
+            <a>Continue with Google</a>
+        </button>
+        <button class="pillButton">
+            <img src="/ASSETS/facebookIcon.png">
+            <a>Continue with Facebook</a>
+        </button>
+        <button class="pillButton">
+            <img src="/ASSETS/appleIcon.png">
+            <a>Continue with Apple</a>
+        </button>
+
+        <div class="divider"></div>
+        
+        <label>Email or username</label>
+        <input type="text" id="textbox" name="email" placeholder="   Email or username">
+
+        <label>Password</label>
+        <input type="text" id="textbox" name="password" placeholder="   Email or username">
+
+        <div id="switchBox">
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>
+            <a>Remember me</a>
+        </div>
+
+        <button class="pillButton" id="loginButton">
+            <h3>Log In</h3>
+        </button>
+
+        <a id="link" href="#">Forgot your password?</a>
+
+        <div class="divider"></div>
+
+        <div>
+            <a class="greyText">Don't have an account?</a>
+            <a id="link" href="#">Sign up for spotify</a>
+        </div>
+
+    </div>
+</body>
+</html>
